@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignmenyt 5</title>
+</head>
+<body>
+<center>
+	<h1>Task 3(C)</h1>
+</center>
+Enter Area :<input type="text" placeholder="Enter Area" id="n1"><br><br>
+<button type="button" onclick="add()">Calculate</button><br><br>
+Result :<input type="text" name="Result" id="n3">
+</body>
+<script type="text/javascript">
+	function add(){
+		var a = document.getElementById("n1").value;
+		var b = Math.pow(a,2);  
+		document.getElementById("n3").value =  b;
+	}
+</script>
+</html>

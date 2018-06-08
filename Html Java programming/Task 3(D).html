@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<center>
+	<h1>Task 3(D)</h1>
+</center>
+<input type="text" placeholder="Enter numer" id="numb1">&nbsp;&nbsp;
+<input type="text" placeholder="Enter number2" id="numb2">&nbsp;&nbsp;<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" onclick="add()">+</button>
+<button type="button" onclick="mul()">*</button>
+<button type="button" onclick="div()">/</button>
+<button type="button" onclick="sub()">-</button><br><br>
+Result: <input type="text" id="result" placeholder="result">
+</body>
+<script type="text/javascript">
+	function add(){
+		var a = document.getElementById("numb1").value;
+		var b = document.getElementById("numb2").value;
+		var c = Number(a)+Number(b);
+		document.getElementById("result").value = c;
+	}
+	function mul(){
+		var a = document.getElementById("numb1").value;
+		var b = document.getElementById("numb2").value;
+		var c = Number(a)*Number(b);
+		document.getElementById("result").value = c;
+	}
+	function div(){
+		var a = document.getElementById("numb1").value;
+		var b = document.getElementById("numb2").value;
+		var c = Number(a)/Number(b);
+		document.getElementById("result").value = c;
+	}
+	function sub(){
+		var a = document.getElementById("numb1").value;
+		var b = document.getElementById("numb2").value;
+		var c = Number(a)-Number(b);
+		document.getElementById("result").value = c;
+	}
+	</script>
+</html>
