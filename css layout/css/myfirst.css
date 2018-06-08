@@ -1,0 +1,392 @@
+/* This is Task 1 css*/
+.main{
+	height: 30px;
+	width: 100%;
+	background-color: red;
+}
+.cont{
+	width: 100%;
+	clear: both;
+}
+.left{
+	width: 16%;
+	background-color: green;
+	float: left;
+	margin-left: 0px;
+	height: 226px;
+}
+.midle{
+	width: 1%;
+	background-color: black;
+	height: 10px;
+}
+.right{
+	width: 83%;
+	background-color: blue;
+	margin-right: 0px;
+	float: right;
+	height: 225px;
+}
+#clear{
+	clear: both;
+}
+.footer{
+	width: 100%;
+	background-color: yellow;
+	height: 30px;
+}
+
+/* This is Task 2  css */
+#left{
+	width: 30%;
+	background-color: green;
+	float: left;
+	margin-left: 250px;
+	border-style: dotted;
+	height: 290px;
+}
+#right{
+	width: 30%;
+	background-color: #d3d3d3;
+	margin-right: 250px;
+	float: right;
+	border-style: dotted;
+	height: 290px;
+}
+.border{
+	width: 20%;
+	float: left;
+	border: 1px solid yellow;
+	margin-left: 20%;
+	height: 70px;
+}
+.border1{
+	width: 20%;
+	float: left;
+	border: 1px solid #ff6347;
+	margin-left: 50px;
+	height: 70px;
+}
+.border2{
+	width: 20%;
+	float: left;
+	border: 1px solid #ff6347;
+	margin-left: 50px;
+	height: 70px;
+	background-color: green;
+}
+/* This is Task 3 css */
+.left3{
+	width: 11%;
+	float: left;
+	margin-left: 70px;
+	height: 140px;
+	background-color: red;
+}
+.left4{
+	width: 38%;
+	float: left;
+	margin-left:0px;
+	height: 315px;
+	background-color: green;
+}
+.left5{
+	width: 11%;
+	float: right;
+	margin-right: 470px;
+	height: 220px;
+	background-color: red;
+}
+/* This is Task 4 css*/
+.borders{
+	width: 410px;
+	padding: 25px;
+	margin: 25px;
+	border: 15px solid black;
+	margin-left: 395px; 
+	height: 75px;
+}
+
+/* This is Task 5 css */
+.borders1{
+	width: 30%;
+	height: 125px;
+	background-color: red;
+	margin-left: -25px;
+	margin-top: -25px;
+}
+.borders2{
+	width: 30%;
+	height: 125px;
+	background-color: gray;
+	margin-left: 44px;
+	margin-top: -125px;
+}
+.borders3{
+	width: 30%;
+	height: 125px;
+	background-color: red;
+	margin-left: 113px;
+	margin-top: -125px;
+}
+.borders4{
+	width: 30%;
+	height: 125px;
+	background-color: gray;
+	margin-left: 236px;
+	margin-top: -125px;
+}
+.borders5{
+	width: 30%;
+	height: 125px;
+	background-color: red;
+	margin-left: 312px;
+	margin-top: -125px;
+}
+/* This is Task 6 css*/
+.model{
+	width: 600px;
+	height: 100px;
+	border: 15px solid lightblue;
+	padding: 25px;
+	margin: 20px;
+	margin-left: 395px;
+}
+.model1{
+	width: 115px;
+	height: 150px;
+	background-color: red;
+	margin-left: -25px;
+	margin-top: -25px;
+}
+.model2{
+	width: 535px;
+	height: 150px;
+	background-color: black;
+	margin-left: 90px;
+	margin-top: -150px;
+}
+/* This is Task 7 css */
+.box{
+	width: 518px;
+	border: 1px solid black;
+	margin-top: 45px;
+	margin-right: 100px;
+	margin-left: 437px;
+	padding: 15px;
+}
+.box1{
+	width: 56%;
+	float: left;
+	border: 1px solid black;
+	margin-left: 22%;
+	height: 252px;
+	margin-top: 19px;
+}
+.box2{
+	width: 23%;
+	float: left;
+	border: 1px solid black;
+	margin-left: 79%;
+	height: 70px;
+	margin-top: -253px;
+}
+.box3{
+	width: 23%;
+	float: left;
+	border: 1px solid black;
+	margin-left: 79%;
+	height: 86px;
+	margin-top: -172px;
+}
+.box4{
+	width: 23%;
+	float: left; 	
+	border: 1px solid black;
+	margin-left: 79%;
+	height: 70px;
+	margin-top: -73px;
+}
+.box5{
+	width: 24%;
+	float: right;
+	border: 1px solid black;
+	margin-right: 408px;
+	height: 70px;
+	margin-top: -253px;
+}
+.box6{
+	width: 24%;
+	float: right;
+	border: 1px solid black;
+	margin-right: 409px;
+	height: 86px;
+	margin-top: -172px;
+}
+.box7{
+	width: 24%;
+	float: right;
+	border: 1px solid black;
+	margin-right: 409px;
+	height: 70px;
+	margin-top: -73px;
+}
+
+/* This is Task 8 css */
+.task{
+	width: 100%;
+	height: 50px;
+	border: 1px solid black;
+}
+.task2{
+	width: 100%;
+	height: 50px;
+	border: 1px solid black;
+	margin-top: 450px;
+}
+#clear{
+	clear: both;
+}
+.task3{
+	width: 100%;
+	height: 250px;
+	border: 1px solid black;
+	margin-top: 60px;
+}
+.task4{
+	width: 30%;
+	height: 150px;
+	border: 1px solid black;
+	margin-top: 20px;
+}
+.task5{
+	width: 100%;
+	height: 149px;
+	border: 1px solid black;
+	margin-top: 0px;
+	margin-left: 419px;
+
+}
+.task6{
+	width: 123%;
+	height: 150px;
+	border: 1px solid black;
+	margin-left: 422px;
+}
+/* this is task 9 css */
+.sri{
+	width: 20%;
+	height: 550px;
+	float: left;
+	border: 1px solid black;
+	margin-left: 1px;
+}
+.sri2{
+	width: 75%;
+	height: 100px;
+	float: left;
+	margin-left: 1%;
+	border: 1px solid black;
+}
+.sri3{
+	width: 36%;
+	height: 302px;
+	float: left;
+	margin-left: 13px;
+	margin-top: 13px;
+	border: 1px solid black;
+}
+.sri4{
+	width: 37%;
+	height: 302px;
+	float: left;
+	margin-left: 24px;
+	margin-top: 13px;
+	border: 1px solid black;
+}
+.sri5{
+	width: 75%;
+	height: 115px;
+	float: left;
+	margin-left: 21%;
+	border: 1px solid black;
+	margin-top: -117px;
+}
+
+/* This is the Task 10 css */
+.sirr{
+	width: 100%;
+	height: 900px;
+	border: 1px solid black;
+}
+.sirr1{
+	width: 90%;
+	height: 200px;
+	float: left;
+	margin-left: 75px;
+	border: 1px solid black;
+	margin-top: 10px;
+}
+.sirr2{
+	width: 247px;
+	height: 600px;
+	margin-top: 215px;
+	border: 1px solid black;
+	float: left;
+}
+.sirr3{
+	width: 54%;
+	height: 100px;
+	float: left;
+	margin-left: 19px;
+	border: 1px solid black;
+	margin-top: 215px;
+}
+.sirr4{
+	width: 262px;
+	height: 600px;
+	margin-top: 215px;
+	border: 1px solid black;
+	float: right;
+	margin-right: 0px;
+}
+.sirr5{
+	width: 20%;
+	height: 75px;
+	margin-top: 10px;
+	float: left;
+	margin-left: 20px;
+	border: 1px solid black;
+}
+.sirr6{
+	width: 20%;
+	height: 75px;
+	margin-top: 10px;
+	float: left;
+	margin-left: 25px;
+	border: 1px solid black;
+}
+.sirr7{
+	width: 20%;
+	height: 75px;
+	margin-top: 10px;
+	float: left;
+	margin-left: 30px;
+	border: 1px solid black;
+}
+.sirr8{
+	width: 20%;
+	height: 75px;
+	margin-top: 10px;
+	float: left;
+	margin-left: 30px;
+	border: 1px solid black;
+}
+.sirr9{
+	width: 100%;
+	height: 482px;
+	margin-left: 0px;
+	margin-top: 30px;
+	float: left;
+	border: 1px solid black;
+}
